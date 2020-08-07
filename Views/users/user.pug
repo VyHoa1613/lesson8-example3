@@ -1,0 +1,23 @@
+
+h1 List books
+style.
+  th,td{
+  border: 1px solid black;
+  text-align:center;
+  }
+  table{
+    width: 500px;
+  }
+a(href="/users/create") New User
+table
+    tr
+        th Name
+        th Update
+        th Delete
+    each user in users
+        tr
+            td= user.name
+            td
+                a(href="/users/"+ user.id + "/update") Update
+            td
+                a(href="/users/"+ user.id +"/delete")   Delete
