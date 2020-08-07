@@ -11,6 +11,26 @@
       "id": "SJiu65u5O"
     }
   ],
-  "users": [],
-  "collection":[]
+  "users": [
+    {
+      "name": "asdasd",
+      "id": "5HcCZOPS_"
+    },
+    {
+      "name": "adasdasd",
+      "id": "GGP2VmbiD"
+    }
+  ],
+  "transaction": [
+    {
+      "userId": "GGP2VmbiD",
+      "bookId": "SJiu65u5O",
+      "id": "zGLXngBi3"
+    },
+    {
+      "userId": "GGP2VmbiD",
+      "bookId": "-9mlIEcsV",
+      "id": "DSpVxZlIk"
+    }
+  ]
 }

@@ -1,0 +1,14 @@
+h1 Create book
+form(action="/transaction/create",method="POST")
+        label(for="name") Name
+        select(name="userId")
+            each user in users
+                option#op1(value=user.id)=user.name
+
+        br
+        babel Books
+        select(name="bookId")
+            each book in books
+                 option#op2(value=book.id)=book.title
+        button Create
+
